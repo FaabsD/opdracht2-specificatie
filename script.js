@@ -1,6 +1,6 @@
 function Student(studentNummer, klas){
-    let studentNummer = studentNummer;
-    let klas = klas;
+    let id = studentNummer;
+    let klasnaam = klas;
 }
 
 let alleStudenten = [];
