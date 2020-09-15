@@ -16,7 +16,7 @@ function Voorraad(item, aantal) {
     }
     // Voor opdracht 5
     this.verlaagVoorraadMetMinderStuks = function () {
-        voorraad = voorraad --;
+        voorraad = voorraad -aantal;
     }
      // Voor opdracht 3
     this.verhoogVoorraad = function () {
@@ -24,7 +24,7 @@ function Voorraad(item, aantal) {
     }
     // Voor opdracht 4
     this.verhoogVoorraadMetMeerStuks = function (){
-        voorraad = voorraad ++;
+        voorraad = voorraad +aantal;
     }
 }
 
