@@ -14,9 +14,17 @@ function Voorraad(item, aantal) {
     this.verlaagVoorraad = function () {
         voorraad = voorraad  -1;
     }
+    // Voor opdracht 5
+    this.verlaagVoorraadMetMinderStuks = function () {
+        voorraad = voorraad --;
+    }
      // Voor opdracht 3
     this.verhoogVoorraad = function () {
         voorraad = voorraad +1;
+    }
+    // Voor opdracht 4
+    this.verhoogVoorraadMetMeerStuks = function (){
+        voorraad = voorraad ++;
     }
 }
 
@@ -34,7 +42,7 @@ function Auto(merk, bouwjaar) {
     }
 
     this.showDetails = function () {
-        console.log('Automerk: ' + brand + ‘ bouwjaar: ' + bouwjaar);
+        console.log('Automerk: ' + brand + ' bouwjaar: ' + bouwjaar);
     }
 
 }
